@@ -3,11 +3,11 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 
-sg_pos = pd.read_csv('Singaporepositive.csv')
-uae_pos = pd.read_csv('UAEpositive.csv')
-ch_pos = pd.read_csv('Chinapositive.csv')
-ph_pos = pd.read_csv('Phillipinespositive.csv')
-can_pos = pd.read_csv('Canadapositive.csv')
+sg_pos = pd.read_csv('Problem 1\CSV Files\Singapore positive.csv')
+uae_pos = pd.read_csv('Problem 1\CSV Files\\UAE positive.csv')
+ch_pos = pd.read_csv('Problem 1\CSV Files\China positive.csv')
+ph_pos = pd.read_csv('Problem 1\CSV Files\Phillipines positive.csv')
+can_pos = pd.read_csv('Problem 1\CSV Files\Canada positive.csv')
 
 #df_posi_sorted = posi.sort_values(by='pos_freq')
 #df_nega_sorted = nega.sort_values(by='neg_freq')

@@ -1,17 +1,17 @@
 import plotly.graph_objects as go
 import pandas as pd 
 
-sg_pos = pd.read_csv('Singaporepositive.csv')
-uae_pos = pd.read_csv('UAEpositive.csv')
-ch_pos = pd.read_csv('Chinapositive.csv')
-ph_pos = pd.read_csv('Phillipinespositive.csv')
-can_pos = pd.read_csv('Canadapositive.csv')
+sg_pos = pd.read_csv('Problem 1\CSV Files\Singapore positive.csv')
+uae_pos = pd.read_csv('Problem 1\CSV Files\\UAE positive.csv')
+ch_pos = pd.read_csv('Problem 1\CSV Files\China positive.csv')
+ph_pos = pd.read_csv('Problem 1\CSV Files\Phillipines positive.csv')
+can_pos = pd.read_csv('Problem 1\CSV Files\Canada positive.csv')
 
-sg_nega= pd.read_csv('Singaporenegative.csv')
-uae_nega= pd.read_csv('UAEnegative.csv')
-ch_nega= pd.read_csv('Chinanegative.csv')
-ph_nega= pd.read_csv('Phillipinesnegative.csv')
-can_nega= pd.read_csv('Canadanegative.csv')
+sg_nega= pd.read_csv('Problem 1\CSV Files\Singapore negative.csv')
+uae_nega= pd.read_csv('Problem 1\CSV Files\\UAE negative.csv')
+ch_nega= pd.read_csv('Problem 1\CSV Files\China negative.csv')
+ph_nega= pd.read_csv('Problem 1\CSV Files\Phillipines negative.csv')
+can_nega= pd.read_csv('Problem 1\CSV Files\Canada negative.csv')
 
 group = ["Singapore","UAE","China","Phillipines","Canada"]
 

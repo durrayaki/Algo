@@ -98,7 +98,7 @@ def takeSecond(elem):
 #driver code    
 if __name__ == "__main__":
     #initialize empty array for positive,negative and stop words
-    country = ["Canada","China","Phillipines","Singapore","UAE"]
+    country = ['Canada','UAE','China','Singapore','Phillipines']
     positive = []
     negative = []
     stop = []
@@ -115,7 +115,7 @@ if __name__ == "__main__":
     for article in country:
         file = "Problem 1\Article\\" + article + ".txt"
         #print("=========================================\t"+article+"\t=========================================")
-        pairlist = countwordfreq(file)
+        pairlist = countwordfreq(file) 
         filterStopWords(pairlist,stop,file)
         ranking(pairlist,positive,negative,article,rank)
      
